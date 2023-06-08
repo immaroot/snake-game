@@ -1,5 +1,7 @@
 package com.immaroot.snakegame;
 
+import com.immaroot.snakegame.game.Cell;
+import com.immaroot.snakegame.game.CellType;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

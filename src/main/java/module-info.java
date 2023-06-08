@@ -5,4 +5,6 @@ module com.immaroot.snakegame {
 
     opens com.immaroot.snakegame to javafx.fxml;
     exports com.immaroot.snakegame;
+    exports com.immaroot.snakegame.game;
+    opens com.immaroot.snakegame.game to javafx.fxml;
 }

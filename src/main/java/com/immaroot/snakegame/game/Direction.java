@@ -1,4 +1,4 @@
-package com.immaroot.snakegame;
+package com.immaroot.snakegame.game;
 
 public enum Direction {
     UP(-1, 0),

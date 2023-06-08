@@ -1,4 +1,4 @@
-package com.immaroot.snakegame;
+package com.immaroot.snakegame.game;
 
 import java.util.LinkedList;
 
