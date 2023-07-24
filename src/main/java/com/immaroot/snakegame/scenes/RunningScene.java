@@ -34,12 +34,14 @@ public class RunningScene extends Scene {
         root.setAlignment(Pos.TOP_CENTER);
         root.setBackground(Background.fill(fill));
 
+        //TODO implement high score feature
         Label highScore = new Label();
         highScore.setText("High Score: 4321");
         highScore.setStyle("-fx-text-fill: #ffffff; -fx-text-alignment: left");
 
         Pane space = new Pane();
 
+        //TODO why set "1234" as current score?
         Label currentScore = new Label();
         currentScore.setText("1234");
         currentScore.setStyle("-fx-text-fill: #ffffff; -fx-text-alignment: right");
